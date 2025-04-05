@@ -1,0 +1,15 @@
+version: 2
+updates:
+  # 🔧 JavaScript (if using Node.js for site assets or frontend tools)
+  - package-ecosystem: "npm"
+    directory: "/" # Assuming package.json is in the root
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # 🐍 Python (if using backend tools or scripting)
+  - package-ecosystem: "pip"
+    directory: "/" # Assuming requirements.txt is in the root
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
