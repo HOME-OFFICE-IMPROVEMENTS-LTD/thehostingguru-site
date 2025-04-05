@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Hosting Guru</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Launch your managed WordPress hosting with TheHostingGuru - Powered by Softaculous & GitHub Pages">
+  <title>TheHostingGuru | Managed WordPress Hosting</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f4f4f7;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
       color: #333;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 2rem;
+      margin: 0;
+      padding: 0;
     }
     header {
+      background: #4a00e0;
+      background: linear-gradient(to right, #4a00e0, #8e2de2);
+      padding: 2rem;
+      color: white;
       text-align: center;
     }
-    h1 {
-      font-size: 2.5rem;
-      color: #2d2dff;
-      margin-bottom: 0.25rem;
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
     }
-    h2 {
-      font-weight: 400;
+    h1, h2 {
       margin-top: 0;
     }
-    .hero {
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .plan {
       background: white;
-      border-radius: 1.5rem;
-      padding: 2rem;
-      max-width: 700px;
-      box-shadow: 0 0 30px rgba(0,0,0,0.08);
-      margin-top: 2rem;
-    }
-    .features {
-      list-style: none;
-      padding: 0;
-      margin: 1.5rem 0 0 0;
-    }
-    .features li {
-      background: #e0e7ff;
-      margin-bottom: 1rem;
-      padding: 1rem;
-      border-radius: 0.75rem;
-      font-weight: 500;
-    }
-    .cta {
-      margin-top: 2rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #ddd;
       text-align: center;
     }
-    .cta a {
-      background: #2d2dff;
-      color: white;
-      text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      border-radius: 9999px;
-      font-weight: 600;
+    .plan h3 {
+      margin-bottom: 0.5rem;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #4a00e0;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      padding: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>The Hosting Guru</h1>
-    <h2>Your Instant WordPress Launch Partner 🚀</h2>
+    <h1>🚀 TheHostingGuru</h1>
+    <p>Start your managed WordPress hosting journey with us. Powered by Softaculous & GitHub Enterprise.</p>
   </header>
-  <section class="hero">
-    <p><strong>Welcome to your all-in-one hosting toolkit.</strong> We help freelancers, resellers, and agencies deliver lightning-fast WordPress websites with just one click.</p>
-    <ul class="features">
-      <li>🔧 Built on Softaculous Cloud</li>
-      <li>🧑‍💻 Free setup & domain integration</li>
-      <li>🌐 Host unlimited sites with your brand</li>
-      <li>📦 Choose from our Guru Hosting Plans</li>
-      <li>🔐 GitHub-powered automation & security</li>
-    </ul>
-    <div class="cta">
-      <a href="#">Launch My First Website</a>
+
+  <section>
+    <h2>🌐 Hosting Plans</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Personal</h3>
+        <p class="price">$4/mo</p>
+        <p>1 Server or Hosting Account<br>Unlimited Apps<br>5 Demo Sites</p>
+      </div>
+      <div class="plan">
+        <h3>Professional</h3>
+        <p class="price">$12/mo</p>
+        <p>10 Servers<br>30 Demo Sites<br>Automated Backups</p>
+      </div>
+      <div class="plan">
+        <h3>Business</h3>
+        <p class="price">$35/mo</p>
+        <p>Unlimited Servers<br>100 Demo Sites<br>Cloning, Monitoring</p>
+      </div>
     </div>
   </section>
+
+  <footer>
+    &copy; 2025 TheHostingGuru - Powered by Home & Office Improvements Ltd.
+  </footer>
 </body>
 </html>
+
